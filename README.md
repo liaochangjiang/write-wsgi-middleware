@@ -159,7 +159,7 @@ server = make_server('localhost', 8000, app)
 
 # 测试 cors app
 
-这里在运行三个客户端，[代码在此]。(https://github.com/liaochangjiang/write-wsgi-middleware/)
+这里在运行三个客户端，[代码在此](https://github.com/liaochangjiang/write-wsgi-middleware/blob/master/client.py)。
 
 运行`python client.py`：
 
@@ -224,3 +224,9 @@ app = ResponseTimingMiddleware(
 本文的所有源代码开源在 github 上：[https://github.com/liaochangjiang/write-wsgi-middleware](https://github.com/liaochangjiang/write-wsgi-middleware)
 
 希望能点个 star ~
+
+![](http://lcjim-img.oss-cn-beijing.aliyuncs.com/2019-05-02-022438.jpg)
+
+如果你像我一样真正热爱计算机科学，喜欢研究底层逻辑，欢迎关注我的微信公众号：
+
+![](http://lcjim-img.oss-cn-beijing.aliyuncs.com/2019-04-24-122556.jpg)
